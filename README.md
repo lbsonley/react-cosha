@@ -47,7 +47,7 @@ export default Page;
 `react-cosha` takes the follow props. Use them to customize the shadow attributes. Or just wrap your images in a `<Cosha>` tag and use the defaults.
 
 | Name | Type | Required |Default | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | blur | string | no | "10px" | Shadow blur |
 | brightness | no | string | "125%" | Shadow brightness |
 | saturation | no | string | "110%" | Shadow saturation |
