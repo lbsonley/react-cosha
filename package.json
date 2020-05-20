@@ -1,0 +1,35 @@
+{
+  "name": "@lbsonley/react-cosha",
+  "description": "Colorful shadows for your images in React",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "lbsonley/react-cosha",
+  "main": "index.js",
+  "author": {
+    "name": "Ben Sonley",
+    "email": "lbsonley@gmail.com",
+    "url": "https://bensonley.com"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "react",
+    "browser",
+    "image",
+    "shadow",
+    "colors",
+    "html",
+    "css filters"
+  ],
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "prop-types": "^15.7.2"
+  }
+}
