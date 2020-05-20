@@ -13,7 +13,7 @@
 ## How
 
 ```sh
-yarn add react-cosha
+yarn add @lbsonley/react-cosha
 ```
 
 ```jsx
@@ -44,19 +44,15 @@ export default Page;
 
 ## Customizing your shadow
 
-`react-cosha` takes the follow props.
+`react-cosha` takes the follow props. Use them to customize the shadow attributes. Or just wrap your images in a `<Cosha>` tag and use the defaults.
 
-| Name | Type | Default | Description |
+| Name | Type | Required |Default | Description |
 | --- | --- | --- | --- |
-| blur | string | "10px" | Shadow blur |
-| brightness | string | "125%" | Shadow brightness |
-| saturation | string | "110%" | Shadow saturation |
-| x | string | "2px" | Shadow horizontal offset |
-| y | strin g| "6px" | Shadow vertical offset |
-
-## Config
-
-Everything in the config is optional. You can use `react-cosha` by just wrapping your images in a `<Cosha>` tag.
+| blur | string | no | "10px" | Shadow blur |
+| brightness | no | string | "125%" | Shadow brightness |
+| saturation | no | string | "110%" | Shadow saturation |
+| x | string | no | "2px" | Shadow horizontal offset |
+| y | string | no | "6px" | Shadow vertical offset |
 
 ## Gotcha
 
