@@ -2,7 +2,7 @@
   <img src="sample.png" width="600">
 </p>
 
-# cosha
+# react-cosha
 
 [![latest version on npm](https://img.shields.io/npm/v/@lbsonley/react-cosha)](https://www.npmjs.com/package/@lbsonley/react-cosha) [![npm downloads a month](https://img.shields.io/npm/dm/@lbsonley/react-cosha)](https://www.npmjs.com/package/@lbsonley/react-cosha) [![required node version](https://img.shields.io/node/v/@lbsonley/react-cosha)](https://github.com/nodejs/Release) [![package license](https://img.shields.io/npm/l/@lbsonley/react-cosha)](license)
 

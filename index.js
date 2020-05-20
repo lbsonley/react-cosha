@@ -9,21 +9,23 @@ const Cosha = ({
     x,
     y
   }) => {
-
-  let clone = cloneElement(
-    Children.only(children),
-    {
-      alt: "",
-      style: {
-        filter:
-          `blur(${blur}) brightness(${brightness}) saturate(${saturation})`,
-        position: "absolute",
-        width: "100%",
-        zIndex: "-1",
-        transform: `translate3d(${x}, ${y}, 0)`
+  let clone;
+  if (NodeList.prototype.forEach) {
+    clone = cloneElement(
+      Children.only(children),
+      {
+        alt: "",
+        style: {
+          filter:
+            `blur(${blur}) brightness(${brightness}) saturate(${saturation})`,
+          position: "absolute",
+          width: "100%",
+          zIndex: "-1",
+          transform: `translate3d(${x}, ${y}, 0)`
+        }
       }
-    }
-  );
+    );
+  }
 
   return (
     <div style={{
@@ -32,7 +34,7 @@ const Cosha = ({
       alignItems: "center",
       justifyContent: "center",
     }}>
-      {clone}
+      {clone && clone}
       {children}
     </div>
   );
