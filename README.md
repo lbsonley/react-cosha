@@ -49,8 +49,8 @@ export default Page;
 | Name | Type | Required |Default | Description |
 | --- | --- | --- | --- | --- |
 | blur | string | no | "10px" | Shadow blur |
-| brightness | no | string | "125%" | Shadow brightness |
-| saturation | no | string | "110%" | Shadow saturation |
+| brightness |  string | no | "125%" | Shadow brightness |
+| saturation | string | no | "110%" | Shadow saturation |
 | x | string | no | "2px" | Shadow horizontal offset |
 | y | string | no | "6px" | Shadow vertical offset |
 

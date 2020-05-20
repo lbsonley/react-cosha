@@ -1,7 +1,7 @@
 {
   "name": "@lbsonley/react-cosha",
   "description": "Colorful shadows for your images in React",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "repository": "lbsonley/react-cosha",
   "main": "index.js",
